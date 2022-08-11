@@ -1,7 +1,12 @@
+/*Definindo espaçamentos internos e externos do body*/
 body{
   margin: 0px;
   padding: 0px;
 }
+
+/* adicionando cor de fundo ao cabeçalho definindo 
+altura do cabeçalho
+ e alinhando ao centro */
 header{
   height: 80px;
   background-color: black;
@@ -9,22 +14,35 @@ header{
   justify-content: space-between;
   align-items: center;
 }
+
+/* definindo altura da imgaem e espaçamento externo a esquerda*/
 img{
   height: 18px;
   margin-left:20px ;
 }
+
+/* alinhando links e tirando estilo da lista*/
 .lista-links{
   display: flex;
   list-style: none;
 }
+
+/* Definindo cor do link tirando decoração do link e definindo espaçamento externo a direita*/
 .lista-links a{
   color: blanchedalmond;
   text-decoration: none;
   margin-right: 20px; 
 }
+
+/* adicionando uma cor de
+ fundo ao link quando o cursor estiver em cima dele*/
 .lista-links a:hover{
   color: coral;
 }
+
+/* configurando onde o conteudo do site 
+vai ficar, ao inicio com justify-start, e no meio da horizontal com o align-items
+*/
 main{
   display: flex;
   justify-content: start;
@@ -32,16 +50,24 @@ main{
   height: calc(100vh - 80px);
   background-image: url(assets/fundo.png);
 }
+
+/* definindo espaçamento exteno a esquerda*/
 .container-textos{
   margin-left: 20px;
 }
+
+/* definindo cor e tamanho da font*/
 .container-textos h1{
   font-size: 50px;
   color: cornflowerblue;
 }
+
+/* defindo cor */
 .container-textos h3{
   color: cornsilk;
 }
+
+/* definindo altura e largura, colocando bordas arredondadas e tamanho da font*/
 .container-textos button{
   height: 50px;
   width: 120px;
